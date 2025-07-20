@@ -13,11 +13,26 @@
     background-position: top left , bottom right;
 }
 /* Shared Style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
 .dark-2{
     color: #474747;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #474747;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.text-center{
+    text-align: center;
 }
 
 /* Nav Styles */
@@ -75,4 +90,49 @@ nav ul{
 }
 .banner-content{
     max-width: 580px;
+}
+/* About Styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+
+
+}
+.about-items{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+/* Main Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* Skills Section */
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0, 0.06);
+    border-radius: 5px;
+}
+.section-description2{
+    padding:20px 110px;
+}
+/* Resume Section Styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+
 }
